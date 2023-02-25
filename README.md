@@ -1,0 +1,2 @@
+# practiceCypress
+Praticando com Cypress
