@@ -60,7 +60,8 @@ describe('Acessar o site', () => {
       cy.get('#id_checkbox_appium').check().uncheck() //Aqui ele marca o checkbox e desmarca
       cy.get('#id_checkbox_robotFramework').check() //Aqui ele apenas marca o checkbox
 
-      //8 - Selecionar aquivo
+      //8 - Selecionar aquivo - Não funciona
+      //cy.get('#id_file').selectFile('test.cy.js')
 
       cy.screenshot('Full Screen')
 
